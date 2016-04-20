@@ -4,5 +4,5 @@ app/Vendor
 app/reports
 app/Config/bootstrap/environments/production.php
 report/TEST-blog_new_post.xml
-*.xml
 .project
+report/TEST-blog_posts.xml
