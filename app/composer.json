@@ -13,6 +13,10 @@
         {
             "type": "vcs",
             "url": "git://github.com/sizuhiko/Bdd.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git://github.com/sizuhiko/Fabricate.git"
         }
     ],
     "require": {
@@ -24,6 +28,7 @@
         "pear/console_commandline": "@dev",
         "pear/pear_exception": "@dev",
         "sizuhiko/Bdd": "dev-master",
-        "behat/mink-goutte-driver": "*"
+        "behat/mink-goutte-driver": "*",
+        "sizuhiko/fabricate": "dev-cakephp2"
     }
 }

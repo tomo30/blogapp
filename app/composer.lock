@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea775bfd65244c1f4232e09ed3e24a35",
-    "content-hash": "21f459506d8441375ba03a5e1feccdf0",
+    "hash": "623f1d32e1bcc3e34cf7d5048241c5bd",
+    "content-hash": "efd595039687b8226b85ee156d2593dc",
     "packages": [
         {
             "name": "cakedc/migrations",
@@ -1457,6 +1457,37 @@
             "time": "2014-05-17 09:01:21"
         },
         {
+            "name": "sizuhiko/fabricate",
+            "version": "dev-cakephp2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sizuhiko/Fabricate.git",
+                "reference": "a2a136b02e223c7d40aabee6e5e32c11598289ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sizuhiko/Fabricate/zipball/a2a136b02e223c7d40aabee6e5e32c11598289ea",
+                "reference": "a2a136b02e223c7d40aabee6e5e32c11598289ea",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*"
+            },
+            "type": "cakephp-plugin",
+            "authors": [
+                {
+                    "name": "sizuhiko",
+                    "email": "sizuhiko@gmail.com"
+                }
+            ],
+            "description": "CakePHP data generator for Testing",
+            "support": {
+                "source": "https://github.com/sizuhiko/Fabricate/tree/1.2.2",
+                "issues": "https://github.com/sizuhiko/Fabricate/issues"
+            },
+            "time": "2016-02-13 07:14:51"
+        },
+        {
             "name": "sizuhiko/spec-php",
             "version": "0.9.6.2",
             "source": {
@@ -2232,7 +2263,8 @@
     "stability-flags": {
         "pear/console_commandline": 20,
         "pear/pear_exception": 20,
-        "sizuhiko/bdd": 20
+        "sizuhiko/bdd": 20,
+        "sizuhiko/fabricate": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
