@@ -31,6 +31,7 @@
         "pear/pear_exception": "@dev",
         "sizuhiko/Bdd": "dev-master",
         "behat/mink-goutte-driver": "*",
-        "sizuhiko/fabricate": "dev-cakephp2"
+        "sizuhiko/fabricate": "dev-cakephp2",
+        "phing/phing": "~2.8"
     }
 }
