@@ -40,7 +40,7 @@ if (function_exists('ini_set')) {
     unset($root, $appDir, $install, $composerInstall);
 }
 
-if (!include ini_get('include_path') . $dispatcher) {
+if (!include $dispatcher) {
     trigger_error('Could not locate CakePHP core files.', E_USER_ERROR);
 }
 unset($dispatcher);
